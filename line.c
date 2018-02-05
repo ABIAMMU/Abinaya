@@ -21,7 +21,7 @@ int main()
 			count--;
 			if(ch=='\*')
 			{
-	                        while(ch!='\*')
+	                        while(ch!='*\')
 	                        {
 	                        	ch=fgetc(fptr);
 	                        }
