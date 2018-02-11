@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
-int sub(int x,int y);
+int sub();
 void main()
 {
    int a,b,c;
@@ -9,7 +9,7 @@ void main()
 
 }
 
-int sub(int x,int y)
+int sub()
 {
     int x,y,z;
     x=10,y=5;
