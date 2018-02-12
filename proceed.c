@@ -1,6 +1,5 @@
-include<stdio.h>
-#include<conio.h>
-int main()
+#include<stdio.h>
+void main()
 {
 int a;
 if(a>=`1&&a<=10)
@@ -11,6 +10,5 @@ else
 {
 printf("\n NO");
 }
-return 0;
 getch();
 }
