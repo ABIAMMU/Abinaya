@@ -1,20 +1,25 @@
 #include <stdio.h> 
 
-main() {
-  int n, i, c = 0;
+main()
+{
+  int n, a, b= 0;
   printf("Enter any number n:");
   scanf("%d", &n);
 
-  /*logic*/  for (i = 1; i <= n; i++) {
-      if (n % i == 0) {
-         c++;
+  for (a = 1; a <= n; a++)
+  {
+      if (n % a == 0)
+      {
+         b++;
       }
   }
 
-  if (c == 2) {
+  if (b== 2) 
+  {
   printf("n is a Prime number");
   }
-  else {
+  else 
+  {
   printf("n is not a Prime number");
   }
   return 0;    
