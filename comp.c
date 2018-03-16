@@ -1,8 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
-  int n,i,flag=0;
+  int n,i,f=0;
   clrscr();
   printf("enter the number\n");
   scanf("%d",&n);
@@ -10,11 +9,11 @@ int main()
   {
      if(n%i==0)
      {
-         flag=1;
+         f=1;
          break;
      }
   }
-  if(flag==0)
+  if(f==0)
   {
       printf("no\n");
   }
